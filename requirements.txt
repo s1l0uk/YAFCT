@@ -1,5 +1,5 @@
 requests>=2.3.0
-prettyable>=0.7.2
+prettytable>=0.7.2
 pyyaml>=3.11
 pycli>=2.0.3
 python-foreman>=0.1.2
