@@ -282,7 +282,7 @@ $ tail -F /var/log/foreman/production.log
 License
 ----
 
-> TBC - Apache?? MIT??
+> MIT
 
 
 [here]:http://pythonhosted.org/python-foreman/client.html
