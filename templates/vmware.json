@@ -1,0 +1,68 @@
+{
+    "name": "@name@",
+    "root_pass": "@root_pass@",
+    "comment": "@comment@",
+    "environment_id": "@environment_id@",
+    "managed": "true",
+    "model_id": "",
+    "provision_method": "build",
+    "interfaces_attributes": {
+        "new_interfaces": {
+            "name": "",
+            "ip": "",
+            "provider": "IPMI",
+            "mac": "",
+            "_destroy": "false",
+            "type": "Nic::Managed",
+            "domain_id": ""
+        }
+    },
+    "disk": "",
+    "domain_id": "@domain_id@",
+    "overwrite": "false",
+    "compute_resource_id": "@compute_resource_id@",
+    "puppet_status": 1,
+    "subnet_id": "@subnet_id@",
+    "architecture_id": "@architecture_id@",
+    "build": "1",
+    "type": "Host::Managed",
+    "operatingsystem_id": "@operatingsystem_id@",
+    "mac": "",
+    "puppet_ca_proxy_id": "@puppet_ca_proxy_id@",
+    "puppet_proxy_id": "@puppet_proxy_id@",
+    "ptable_id": "LookUp(PartitionTable:Kickstart default)",
+    "medium_id": "@medium_id@",
+    "enabled": "1",
+    "hostgroup_id": "@hostgroup_id@",
+    "compute_attributes": {
+        "scsi_controller_type": "VirtualLsiLogicController",
+        "volumes_attributes": {
+            "0": {
+                "size_gb": "@size_gb@",
+                "datastore": "@datastore@",
+                "_delete": "",
+                "name": "Hard disk",
+                "thin": "true"
+            },
+            "new_volumes": {
+                "size_gb": "@size_gb@",
+                "datastore": "@datastore@",
+                "thin": "true"
+            }
+        },
+        "interfaces_attributes": {
+          "0": {
+              "_delete": "",
+              "type": "VirtualVmxnet3",
+              "network": "@network@"
+          }
+        },
+        "cpus": "@cpus@",
+        "memory_mb": "@memory_mb@",
+        "cluster": "@cluster@",
+        "path": "@path@",
+        "start": "1"
+    },
+    "compute_profile_id": "@compute_profile_id@",
+    "puppetclass_ids": []
+}
